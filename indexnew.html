@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sariva Herbals — Science-led herbal innovation</title>
+<meta name="description" content="Sariva Herbals (OPC) Private Limited is a woman-led Karnataka start-up developing evidence-driven, nanotechnology-enabled herbal health products for skin, oral and wound care.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36' fill='none' stroke='%2323473A' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M18 32V14M18 20c-6 0-10-4-10-11 7 0 10 4 10 11zM18 16c5 0 9-3 9-9-6 0-9 3-9 9z'/%3E%3C/svg%3E">
+<style>
+:root{--ground:#F6F2E8;--ink:#1E2A22;--forest:#23473A;--sand:#EAE3D0;--gold:#E3B35C;--amber:#8A5A10;--muted:#3E4A40;--line:#DDD6C4}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'Work Sans',system-ui,sans-serif;background:var(--ground);color:var(--ink);line-height:1.6}
+a{color:var(--forest)}
+.wrap{max-width:1280px;margin:0 auto;padding:0 24px}
+h1,h2,h3,.serif{font-family:'Fraunces',Georgia,serif;font-weight:500;margin:0}
+h1{font-size:clamp(38px,6vw,66px);line-height:1.05;letter-spacing:-1px}
+h2{font-size:clamp(30px,4vw,46px);line-height:1.12}
+h3{font-size:clamp(22px,2.4vw,28px)}
+p{margin:0}
+.eyebrow{font-size:13px;font-weight:600;letter-spacing:1.6px;text-transform:uppercase;color:var(--amber)}
+.dark .eyebrow,.green .eyebrow{color:var(--gold)}
+section{padding:clamp(64px,9vw,112px) 0}
+.btn{display:inline-block;text-decoration:none;padding:15px 26px;border-radius:999px;font-weight:600;min-height:44px}
+.btn-fill{background:var(--forest);color:#fff}.btn-fill:hover{background:#16302A;color:#fff}
+.btn-line{border:1.5px solid var(--forest);color:var(--forest)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,72px);align-items:center}
+.stack{display:flex;flex-direction:column;gap:22px}
+.lead{font-size:clamp(17px,1.6vw,20px);color:var(--muted)}
+.body{font-size:18px;color:var(--muted)}
+.head{max-width:760px;margin-bottom:48px}
+header{border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--ground);z-index:10}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
+.brand b{font-family:'Fraunces',Georgia,serif;font-size:21px;font-weight:600;display:block;line-height:1.1}
+.brand small{font-size:12px;color:#5A6258}
+nav.links{display:flex;gap:28px;align-items:center;font-weight:500;font-size:15px}
+nav.links a{text-decoration:none;color:var(--ink)}
+nav.links a.btn{color:#fff;padding:11px 20px}
+.panel{border-radius:28px;background:var(--forest);padding:clamp(28px,4vw,48px);color:var(--ground);display:flex;flex-direction:column;gap:36px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.stats b{font-family:'Fraunces',Georgia,serif;font-weight:500;font-size:clamp(28px,3.2vw,40px);display:block;line-height:1.2}
+.stats span{font-size:15px;color:#D5DCD2}
+.cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:6px}
+.badge{display:inline-flex;align-self:flex-start;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:14px;font-weight:600;color:var(--forest)}
+.white{background:#fff}
+.cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:10px}
+.mini{padding:22px;border-radius:16px;background:var(--ground)}
+.mini b{display:block;margin-bottom:6px}
+.mini span{font-size:15px;color:var(--muted)}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.tile{padding:32px;border-radius:22px;background:#fff;border:1px solid var(--line);display:flex;flex-direction:column;gap:14px}
+.tile p{color:var(--muted);font-size:16px}
+.ico{width:56px;height:56px;border-radius:50%;background:var(--forest);display:flex;align-items:center;justify-content:center}
+.dark{background:var(--ink);color:var(--ground)}
+.pipehead{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap;margin-bottom:48px}
+.legend{display:flex;gap:20px;font-size:14px;color:#C9D1C6}
+.legend i{display:inline-block;width:14px;height:14px;border-radius:4px;vertical-align:-2px;margin-right:8px}
+.pipe{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.card{padding:clamp(26px,3vw,40px);border-radius:24px;background:#26352B;display:flex;flex-direction:column;gap:18px}
+.card .top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.tag{font-size:12px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:var(--gold)}
+.pill{font-size:13px;padding:6px 12px;border-radius:999px;border:1px solid var(--gold);color:var(--gold);font-weight:600}
+.pill.solid{background:var(--gold);color:var(--ink)}
+.card p{color:#C9D1C6;font-size:16px}
+.bar,.stages{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.bar i{height:8px;border-radius:4px;background:#3A4A3E}
+.bar i.on{background:var(--gold)}.bar i.half{background:#9C7A3E}
+.stages span{font-size:12px;color:#A7B1A4}
+.note{margin-top:28px;font-size:14px;color:#A7B1A4}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.step{padding:30px;border-radius:20px;background:#fff;border:1px solid var(--line);display:flex;flex-direction:column;gap:12px}
+.step .serif{font-size:38px;color:var(--amber)}
+.step b{font-size:19px}.step span{font-size:15px;color:var(--muted)}
+.sand{background:var(--sand)}
+.horizon{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.hz{padding:32px;border-radius:22px;background:var(--ground);display:flex;flex-direction:column;gap:12px}
+.hz .when{font-size:13px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:var(--amber)}
+.hz ul{margin:0;padding-left:20px;color:var(--muted);font-size:16px;display:flex;flex-direction:column;gap:6px}
+.team{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.person{padding:clamp(26px,3vw,40px);border-radius:24px;background:#fff;border:1px solid var(--line);display:flex;gap:26px}
+.avatar{width:104px;height:104px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;color:var(--ground);font-family:'Fraunces',Georgia,serif;font-size:34px}
+.person .serif{font-size:25px}
+.role{display:block;font-weight:600;color:var(--amber);margin:4px 0 10px;font-size:15px}
+.person p{color:var(--muted);font-size:16px}
+.green{background:var(--forest);color:var(--ground)}
+.support{display:grid;grid-template-columns:5fr 6fr;gap:56px;align-items:start}
+.asks{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.ask{padding:26px;border-radius:20px;background:#2E5747}
+.ask b{display:block;font-size:18px;margin-bottom:8px}
+.ask span{font-size:15px;color:#D5DCD2}
+.contact{padding:clamp(26px,3vw,40px);border-radius:24px;background:#fff;border:1px solid var(--line);display:flex;flex-direction:column;gap:24px}
+.contact small{display:block;font-size:12px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:#5A6258;margin-bottom:4px}
+footer{border-top:1px solid var(--line);padding:30px 0;font-size:14px;color:#5A6258}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media (max-width:980px){
+ nav.links a:not(.btn){display:none}
+ .grid2,.pipe,.team,.support{grid-template-columns:1fr}
+ .steps,.tiles,.horizon{grid-template-columns:1fr 1fr}
+ .cards3{grid-template-columns:1fr}
+}
+@media (max-width:600px){
+ .steps,.asks,.tiles,.horizon{grid-template-columns:1fr}
+ .person{flex-direction:column}
+ .brand small{display:none}
+ .stages span{font-size:10px}
+}
+</style>
+</head>
+<body>
+
+<header><div class="wrap nav">
+<a class="brand" href="#top">
+<svg width="34" height="34" viewBox="0 0 36 36" fill="none" stroke="#23473A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 32V14"/><path d="M18 20c-6 0-10-4-10-11 7 0 10 4 10 11z"/><path d="M18 16c5 0 9-3 9-9-6 0-9 3-9 9z"/></svg>
+<span><b>Sariva Herbals</b><small>(OPC) Private Limited</small></span>
+</a>
+<nav class="links" aria-label="Main">
+<a href="#about">About</a><a href="#focus">Focus areas</a><a href="#technology">Technology</a><a href="#pipeline">Pipeline</a><a href="#vision">Vision</a><a href="#team">Team</a>
+<a class="btn btn-fill" href="#contact">Partner with us</a>
+</nav>
+</div></header>
+
+<main id="top">
+<section><div class="wrap grid2">
+<div class="stack">
+<span class="badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#23473A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4.5 2 7.5-6.5-4.5L5.5 21l2-7.5L2 9h7z"/></svg>A woman-led start-up from Karnataka</span>
+<h1>Nature's medicine, delivered through modern science.</h1>
+<p class="lead">Sariva Herbals develops innovative, evidence-driven herbal health products that combine traditional botanical knowledge with advanced pharmaceutical technology — for safer, affordable and effective care of the skin, the mouth and beyond.</p>
+<div class="cta"><a class="btn btn-fill" href="#pipeline">Explore our pipeline</a><a class="btn btn-line" href="#vision">Our vision</a></div>
+</div>
+<div class="panel">
+<svg width="96" height="96" viewBox="0 0 120 120" fill="none" stroke="#E3B35C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="60" cy="60" r="52"/><path d="M60 104V46"/><path d="M60 66c-18 0-28-11-28-30 19 0 28 11 28 30z"/><path d="M60 56c15 0 25-9 25-25-16 0-25 9-25 25z"/></svg>
+<div class="stats">
+<div><b>Nano-enabled</b><span>herbal delivery for deeper, targeted action</span></div>
+<div><b>Multi-area</b><span>pipeline across skin, oral and wound care</span></div>
+<div><b>Evidence-first</b><span>preclinical and clinical evaluation of every lead</span></div>
+<div><b>20+ years</b><span>of pharmaceutical research expertise behind us</span></div>
+</div>
+</div>
+</div></section>
+
+<section id="about" class="white"><div class="wrap grid2" style="align-items:start">
+<div class="stack"><span class="eyebrow">About us</span><h2>Where traditional wisdom meets formulation science</h2></div>
+<div class="stack body">
+<p>Sariva Herbals (OPC) Private Limited is a woman-led, Karnataka-based herbal innovation company. We take well-researched botanical actives from the laboratory to the people who need them — through careful formulation, modern delivery technologies and rigorous testing.</p>
+<p>Our guiding principle is simple: every product begins with scientific evidence, is built with standardised ingredients and modern dosage-form design, and is evaluated for safety and performance before it reaches the market.</p>
+<div class="cards3">
+<div class="mini"><b>Mission</b><span>Safe, affordable and effective herbal health products, backed by data.</span></div>
+<div class="mini"><b>Vision</b><span>A trusted Indian name in science-validated botanical healthcare.</span></div>
+<div class="mini"><b>Values</b><span>Evidence first, quality always, respect for tradition.</span></div>
+</div>
+</div>
+</div></section>
+
+<section id="focus"><div class="wrap">
+<div class="stack head" style="gap:16px"><span class="eyebrow">Therapeutic focus</span><h2>Where we are making a difference</h2><p class="body">Chronic and common conditions where patients need safe, long-term, affordable options.</p></div>
+<div class="tiles">
+<div class="tile"><span class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F6F2E8" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c4 4 7 7.5 7 11a7 7 0 0 1-14 0c0-3.5 3-7 7-11z"/></svg></span><h3>Skin health</h3><p>Inflammatory and chronic skin disorders such as psoriasis, and common conditions like acne, where steroid-free long-term options are needed.</p></div>
+<div class="tile"><span class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F6F2E8" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3c-2 0-3 2-3 4 0 3 1 5 2 8s1 6 3 6 1.5-5 3-5 1 5 3 5 2-3 3-6 2-5 2-8c0-2-1-4-3-4s-3 1-5 1-3-1-5-1z"/></svg></span><h3>Oral care</h3><p>Daily-use oral hygiene products addressing plaque, gum health, tooth sensitivity and fresh breath.</p></div>
+<div class="tile"><span class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F6F2E8" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="8" rx="4" transform="rotate(-45 12 12)"/><path d="M10 10h.01M14 14h.01M12 12h.01"/></svg></span><h3>Wound &amp; infection care</h3><p>Topical products supporting wound healing and control of superficial bacterial and fungal infections.</p></div>
+</div>
+</div></section>
+
+<section id="technology" class="white"><div class="wrap">
+<div class="stack head" style="gap:16px"><span class="eyebrow">Our technology</span><h2>Platforms that make herbal actives work harder</h2><p class="body">Many plant actives are powerful but poorly absorbed. Our platforms solve that delivery problem.</p></div>
+<div class="tiles">
+<div class="tile" style="background:var(--ground)"><span class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F6F2E8" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/></svg></span><h3>Nanovesicular delivery</h3><p>Ultra-deformable nanovesicles that carry herbal actives through the skin barrier into the target layers, forming a local depot for sustained action — incorporated into patient-friendly gels.</p></div>
+<div class="tile" style="background:var(--ground)"><span class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F6F2E8" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6"/><path d="M10 3v6L5 18a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3L14 9V3"/></svg></span><h3>DR-32® polyherbal platform</h3><p>Our proprietary multi-botanical base formula, developed in-house and held as protected know-how, serving as the foundation for a family of finished products.</p></div>
+<div class="tile" style="background:var(--ground)"><span class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F6F2E8" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M22 20H2"/></svg></span><h3>Quality by design</h3><p>Standardised extracts, modern analytical characterisation and stability testing to ensure every batch is consistent, safe and effective.</p></div>
+</div>
+</div></section>
+
+<section id="pipeline" class="dark"><div class="wrap">
+<div class="pipehead">
+<div class="stack" style="max-width:720px;gap:16px"><span class="eyebrow">Product pipeline</span><h2>Innovative health products in development</h2></div>
+<div class="legend"><span><i style="background:#E3B35C"></i>Stage reached</span><span><i style="background:#3A4A3E"></i>Ahead</span></div>
+</div>
+<div class="pipe">
+<article class="card">
+<div class="top"><span class="tag">Skin health · Lead programme</span><span class="pill solid">Preclinical proof of concept</span></div>
+<h3>Nanovesicular herbal gel for psoriasis</h3>
+<p>A steroid-free topical gel delivering a plant-derived active through ultra-deformable nanovesicles. Laboratory and animal studies have shown encouraging anti-inflammatory activity, good skin tolerance, stability and antimicrobial action. A next-generation version with additional botanical actives is under development.</p>
+<div class="bar"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+<div class="stages"><span>Research</span><span>Formulation</span><span>Preclinical</span><span>Clinical</span><span>Market</span></div>
+</article>
+<article class="card">
+<div class="top"><span class="tag">Oral care</span><span class="pill solid">Clinically evaluated</span></div>
+<h3>DR-32® Herbal Mouthwash &amp; Toothpaste</h3>
+<p>A polyherbal oral-care line designed for plaque control, oral hygiene and tooth sensitivity. Safety studies and an early-phase human evaluation have been completed.</p>
+<div class="bar"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+<div class="stages"><span>Research</span><span>Formulation</span><span>Preclinical</span><span>Clinical</span><span>Market</span></div>
+</article>
+<article class="card">
+<div class="top"><span class="tag">Wound care · Antifungal</span><span class="pill">Clinical study in progress</span></div>
+<h3>DR-32® Healing Drops &amp; Gel</h3>
+<p>Topical drops and gel built on our proprietary base, being developed for wound healing and superficial fungal infections.</p>
+<div class="bar"><i class="on"></i><i class="on"></i><i class="on"></i><i class="half"></i><i></i></div>
+<div class="stages"><span>Research</span><span>Formulation</span><span>Preclinical</span><span>Clinical</span><span>Market</span></div>
+</article>
+<article class="card">
+<div class="top"><span class="tag">Skin health · Broader range</span><span class="pill">Research stage</span></div>
+<h3>Topical herbal care range</h3>
+<p>A family of topical products for fungal skin infections, acne and other common skin conditions, built on our evidence-first selection approach.</p>
+<div class="bar"><i class="on"></i><i></i><i></i><i></i><i></i></div>
+<div class="stages"><span>Research</span><span>Formulation</span><span>Preclinical</span><span>Clinical</span><span>Market</span></div>
+</article>
+</div>
+<p class="note">Products shown are under development and not yet available for sale. Descriptions refer to intended use and ongoing studies; they are not therapeutic claims.</p>
+</div></section>
+
+<section><div class="wrap">
+<div class="stack head" style="gap:16px"><span class="eyebrow">How we work</span><h2>An evidence-first development path</h2></div>
+<div class="steps">
+<div class="step"><span class="serif">01</span><b>Evidence review</b><span>Only botanicals with published, condition-specific activity are shortlisted.</span></div>
+<div class="step"><span class="serif">02</span><b>Standardised sourcing</b><span>Quality-checked, standardised ingredients from reliable Indian suppliers.</span></div>
+<div class="step"><span class="serif">03</span><b>Advanced formulation</b><span>Modern delivery systems and dosage-form design for better performance.</span></div>
+<div class="step"><span class="serif">04</span><b>Safety &amp; clinical testing</b><span>Preclinical safety and human evaluation with clinical partners before launch.</span></div>
+</div>
+</div></section>
+
+<section id="vision" class="white"><div class="wrap">
+<div class="stack head" style="gap:16px"><span class="eyebrow">Broader prospects</span><h2>Where we are headed</h2><p class="body">Our platforms are built to grow — from a focused lead product into a portfolio of science-backed herbal healthcare.</p></div>
+<div class="horizon">
+<div class="hz"><span class="when">Near term</span><h3>Validate &amp; protect</h3><ul><li>Complete regulatory preclinical studies</li><li>Human clinical trials for lead products</li><li>Intellectual property filings</li><li>Licensing and GMP manufacturing partnerships</li></ul></div>
+<div class="hz"><span class="when">Mid term</span><h3>Launch &amp; expand</h3><ul><li>Market launch through dermatologists, practitioners, pharmacies and online</li><li>Extend platforms to more skin, oral and infection-care needs</li><li>Build a recognised Sariva brand</li></ul></div>
+<div class="hz"><span class="when">Long term</span><h3>Scale &amp; lead</h3><ul><li>Technology licensing to pharma and herbal industry</li><li>Exports to Asia, the Middle East and Africa</li><li>Wellness and nutraceutical extensions</li><li>A leading Indian name in nano-enabled herbal care</li></ul></div>
+</div>
+</div></section>
+
+<section class="sand"><div class="wrap">
+<div class="stack head" style="gap:16px"><span class="eyebrow">Our impact</span><h2>Why it matters</h2></div>
+<div class="steps">
+<div class="step"><b>Safer long-term care</b><span>Steroid-free options for chronic conditions that need years of treatment.</span></div>
+<div class="step"><b>Affordable</b><span>Low-cost materials and simple processes keep prices within reach of every patient.</span></div>
+<div class="step"><b>Made in India</b><span>Indian botanical wealth, developed and manufactured in Karnataka.</span></div>
+<div class="step"><b>Women in innovation</b><span>A woman-led enterprise building science-based healthcare.</span></div>
+</div>
+</div></section>
+
+<section id="team"><div class="wrap">
+<div class="stack head" style="gap:16px"><span class="eyebrow">Leadership</span><h2>The people behind Sariva</h2></div>
+<div class="team">
+<div class="person"><div class="avatar" style="background:#8A5A10">UJ</div><div><span class="serif">Mrs. Usha Joshi</span><span class="role">Founder &amp; Director</span><p>Leads the company's operations, finance, compliance and partnerships, and drives the commercial journey of our products. [ADD A LINE ON BACKGROUND AND EXPERIENCE]</p></div></div>
+<div class="person"><div class="avatar" style="background:#23473A">VJ</div><div><span class="serif">Dr. Vedamurthy Joshi P. V.</span><span class="role">Mentor &amp; Scientific Advisor</span><p>Professor of Pharmaceutics and Regulatory Affairs with over 20 years in academia, specialising in novel drug delivery, nanomedicine and herbal formulation. Named inventor on multiple Indian patent applications, with publications in indexed journals.</p></div></div>
+</div>
+</div></section>
+
+<section id="support" class="green"><div class="wrap support">
+<div class="stack"><span class="eyebrow">Support we are seeking</span><h2>From validated science to products on shelves</h2><p style="font-size:18px;color:#D5DCD2">We welcome grant funding, incubation, investment and industry partnerships to take our pipeline through clinical validation, regulatory approval and manufacturing.</p></div>
+<div class="asks">
+<div class="ask"><b>Clinical studies</b><span>Regulatory preclinical work and human clinical trials.</span></div>
+<div class="ask"><b>Intellectual property</b><span>Protection of our formulations and platforms.</span></div>
+<div class="ask"><b>Licensing &amp; compliance</b><span>Manufacturing licences, stability data and quality systems.</span></div>
+<div class="ask"><b>Scale-up</b><span>Pilot and commercial production with GMP partners.</span></div>
+</div>
+</div></section>
+
+<section id="contact"><div class="wrap grid2" style="align-items:start">
+<div class="stack"><span class="eyebrow">Contact</span><h2>Let's build the future of herbal care together</h2><p class="body">Funding agencies, incubators, investors, manufacturers and research collaborators — we would be glad to hear from you.</p></div>
+<div class="contact">
+<div><small>Registered office</small>[REGISTERED ADDRESS], Karnataka, India</div>
+<div><small>Email</small><a href="mailto:[EMAIL]">[EMAIL ADDRESS]</a></div>
+<div><small>Phone</small>[PHONE NUMBER]</div>
+<div><small>Company details</small>CIN: [CIN]</div>
+<a class="btn btn-fill" style="align-self:flex-start" href="mailto:[EMAIL]">Write to us</a>
+</div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+<span>© 2026 Sariva Herbals (OPC) Private Limited. All rights reserved.</span>
+<span>DR-32® is a registered trademark of Sariva Herbals (OPC) Private Limited.</span>
+</div></footer>
+</body>
+</html>
